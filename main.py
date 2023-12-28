@@ -13,3 +13,10 @@ print(search_number([3,14,22,24,41,65,78,99], 45))
 
 print(search_word(my_list_words, 'blueberry'))
 print(search_word(my_list_words, 'fish'))
+
+
+from sort import bubble_sort
+
+my_list_unsorted_nums = [1,5,3,24,21,54,32,11,12]
+
+print(bubble_sort(my_list_unsorted_nums))
