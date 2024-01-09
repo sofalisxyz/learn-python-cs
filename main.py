@@ -21,3 +21,4 @@ my_list_unsorted_nums = [1,5,3,24,21,54,32,11,12]
 
 print(bubble_sort(my_list_unsorted_nums.copy()))
 print(insertion_sort(my_list_unsorted_nums.copy()))
+print(merge_sort(my_list_unsorted_nums.copy()))
