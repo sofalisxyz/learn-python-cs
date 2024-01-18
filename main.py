@@ -36,3 +36,6 @@ print(is_anagram('Cats', 'acst'))
 print(is_palindrome('eveveveve'))
 print(is_palindrome('something'))
 
+string_to_get_numbers_from = 'Buy 1 get 2 free'
+
+print([c for c in string_to_get_numbers_from if c.isdigit()])
