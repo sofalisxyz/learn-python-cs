@@ -29,3 +29,10 @@ print(sorted(my_list_unsorted_nums.copy(), reverse=True))
 print(sorted(my_list_unsorted_words.copy()))
 print(sorted(my_list_unsorted_words.copy(), reverse=True))
 print(sorted(my_list_unsorted_words.copy(), key=len))
+
+from string_algs import *
+
+print(is_anagram('Cats', 'acst'))
+print(is_palindrome('eveveveve'))
+print(is_palindrome('something'))
+
